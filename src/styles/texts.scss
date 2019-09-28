@@ -18,6 +18,9 @@ h6 {
   font-size: 14px;
   text-decoration: none;
   color: $gray;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 h1,
