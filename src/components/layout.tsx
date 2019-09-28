@@ -3,11 +3,10 @@ import Header from './header'
 import Footer from './footer'
 
 interface Props {
-  title: string
   children?: any
 }
 
-const Layout = ({ title, children }: Props) => {
+const Layout = ({ children }: Props) => {
   return (
     <div
       className='layout'

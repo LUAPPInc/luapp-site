@@ -14,24 +14,24 @@ const Header = ({}: Props) => {
           <Navbar.Toggle aria-controls='navbar-nav' />
           <Navbar.Collapse id='navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href='#home'>
+            <Nav.Link href='/#home'>
               Ínicio
             </Nav.Link>
-            <Nav.Link href='#sobre'>
+            <Nav.Link href='/#sobre'>
               Luapp
             </Nav.Link>
-            <Nav.Link href='#clientes'>
-              Clientes
-            </Nav.Link>
-            <Nav.Link href='#servicos'>
+            <Nav.Link href='/#servicos'>
               Serviços
             </Nav.Link>
-            <Nav.Link href='#contato'>
+            <Nav.Link href='/#clientes'>
+              Clientes
+            </Nav.Link>
+            <Nav.Link href='/#contato'>
               Contato
             </Nav.Link>
           </Nav>
           </Navbar.Collapse>
-          <Navbar.Brand href='#home'>
+          <Navbar.Brand href='/#home'>
             <figure>
               <img 
                 src={luappSvg}

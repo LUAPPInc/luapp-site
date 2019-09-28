@@ -1,0 +1,13 @@
+@import '../../../colors.scss';
+@import '../../../animations.scss';
+
+.contact {
+  min-height: calc(50vh - 22.5px);
+  width: 100%;
+  background-color: $purpleLight;
+  background-image: url('../images/bg4.jpg');
+  background-size: 100% 100%;
+  @media(max-width: 991px) {
+    min-height: initial;
+  }
+}

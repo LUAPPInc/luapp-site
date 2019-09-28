@@ -1,0 +1,13 @@
+@import '../../../colors.scss';
+@import '../../../animations.scss';
+
+.about {
+  min-height: calc(100vh - 55px);
+  width: 100%;
+  background-color: $white;
+  background-image: url('../images/bg2.jpg');
+  background-size: 100% 100%;
+  @media(max-width: 991px) {
+    min-height: initial;
+  }
+}
