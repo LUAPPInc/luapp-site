@@ -1,0 +1,40 @@
+@import '../../colors.scss';
+@import '../../animations.scss';
+
+.header {
+  background: $purpleDark;
+  height: 56px;
+  width: 100%;
+  .navbar {
+    background: $purpleDark;
+    .navbar-collapse {
+      .navbar-nav {
+        .nav-link {
+          display: inline-block;
+          text-align: center;
+          color: $white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          transition: $transition;
+          border-bottom: 2px solid transparent;
+          margin: 0 10px;
+          &.active {
+            font-weight: bold;
+          }
+          &:hover {
+            border-color: $white;
+          }
+        }
+      }
+    }
+    .navbar-toggler {
+      color: $white;
+      border-color: $white;
+    }
+    .navbar-brand {
+      display: inline-block;
+      margin: 0 15px;
+      width: 150px;
+    }
+  }
+}

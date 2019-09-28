@@ -5,13 +5,10 @@ import SEO from '../components/seo'
 export default class IndexPage extends React.Component {
 
   public render() {
-    const siteTitle = 'Home'
-
     return (
-      <Layout location={window.location} title={siteTitle}>
+      <Layout title={'Home'}>
         <SEO title='Home'/>
-        <h1>Oi</h1>
-        <p>teste</p>
+        Página
       </Layout>
     )
   }

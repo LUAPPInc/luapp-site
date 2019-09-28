@@ -1,2 +1,13 @@
+/* General styles */
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import './full.scss';
+/* General styles */
+
+/* Components styles */
+@import './modules/components/header.scss';
+@import './modules/components/layout.scss';
+@import './modules/components/footer.scss';
+/* Components styles */
+
+/* Pages styles */
+/* Pages styles */
