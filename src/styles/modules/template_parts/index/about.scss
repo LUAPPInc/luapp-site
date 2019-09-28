@@ -7,6 +7,7 @@
   background-color: $white;
   background-image: url('../images/bg2.jpg');
   background-size: 100% 100%;
+  position: relative;
   @media(max-width: 991px) {
     min-height: initial;
   }

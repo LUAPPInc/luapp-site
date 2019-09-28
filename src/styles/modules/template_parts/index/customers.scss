@@ -5,6 +5,7 @@
   min-height: calc(50vh - 22.5px);
   width: 100%;
   background-color: $purpleLight;
+  position: relative;
   @media(max-width: 991px) {
     min-height: initial;
   }
