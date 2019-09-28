@@ -19,8 +19,17 @@ const NotFoundPage = ({ data }: Props) => {
   return (
     <Layout>
       <SEO title='404: Not Found' />
-      <h1>Not Found</h1>
-      <p>You just hit a route that doesn't exist... the sadness.</p>
+      <div className='page-404'>
+        <div className='wrapper'>
+          <h1>
+            Página não encontrada
+          </h1>
+          <p>
+            A página que você está procurando não existe.<br />
+            Use o menu superior para voltar para o site.
+          </p>
+        </div>
+      </div>
     </Layout>
   )
 }
