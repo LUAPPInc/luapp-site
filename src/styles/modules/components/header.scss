@@ -5,10 +5,20 @@
   background: $purpleDark;
   height: 56px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
   .navbar {
     background: $purpleDark;
     .navbar-collapse {
+      transition: $transition;
       .navbar-nav {
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 991px) {
+          height: calc(100vh - 90px);
+          
+        }
         .nav-link {
           display: inline-block;
           text-align: center;
@@ -24,17 +34,29 @@
           &:hover {
             border-color: $white;
           }
+          @media (max-width: 991px) {
+            width: 100%;
+            margin: 15px auto;
+          }
         }
       }
     }
     .navbar-toggler {
       color: $white;
       border-color: $white;
+      transition: $transition;
+      &:hover, &:focus {
+        outline: none;
+      }
     }
     .navbar-brand {
       display: inline-block;
       margin: 0 15px;
       width: 150px;
+      transition: $transition;
+      @media (max-width: 991px) {
+        margin: 0 auto;
+      }
     }
   }
 }
