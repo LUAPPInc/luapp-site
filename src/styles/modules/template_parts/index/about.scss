@@ -2,7 +2,6 @@
 @import '../../../animations.scss';
 
 .about {
-  min-height: calc(100vh - 55px);
   width: 100%;
   background-color: $grayLight;
   background-image: url('../images/bg2.png');
@@ -11,7 +10,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   @media(max-width: 991px) {
-    min-height: initial;
     background-size: cover;
     padding: 50px 0 0;
   }
