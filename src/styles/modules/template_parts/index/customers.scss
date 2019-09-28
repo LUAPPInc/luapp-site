@@ -2,11 +2,29 @@
 @import '../../../animations.scss';
 
 .customers {
-  min-height: calc(50vh - 22.5px);
   width: 100%;
   background-color: $purpleLight;
   position: relative;
-  @media(max-width: 991px) {
-    min-height: initial;
+  h2 {
+    margin: 30px auto;
+    padding: 0 0 0 30px;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    @media(max-width: 991px) {
+      margin: 15px auto;
+      padding: 0;
+      text-align: center;
+    }
+    span {
+      color: $white;
+      text-transform: none;
+      margin: 0 0 0 15px;
+      @media(max-width: 991px) {
+        margin: 0 auto;
+        display: block;
+      }
+    }
   }
 }
