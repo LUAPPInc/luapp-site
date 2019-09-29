@@ -8,6 +8,9 @@
   position: sticky;
   top: 0;
   z-index: 1020;
+  @media (max-width: 991px) {
+    height: 56px;
+  }
   .navbar {
     background: $purpleDark;
     .navbar-collapse {
@@ -16,8 +19,7 @@
         justify-content: center;
         align-items: center;
         @media (max-width: 991px) {
-          height: calc(100vh - 90px);
-          
+          height: calc(100vh - 89px); 
         }
         a {
           display: inline-block;
