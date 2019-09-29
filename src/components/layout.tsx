@@ -3,15 +3,16 @@ import Header from './header'
 import Footer from './footer'
 
 interface Props {
-  children?: any
+  children?: any,
+  is404?: boolean
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children, is404 = false }: Props) => {
   return (
     <div
       className='layout'
     >
-      <Header  />
+      <Header is404={is404} />
       <main>
         {children}
       </main>
