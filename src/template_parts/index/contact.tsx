@@ -29,7 +29,7 @@ const Contact = ({}: Props) => {
                   type='text'
                   name='name'
                   id='name'
-                  required
+                  required={true}
                 />
               </div>
               <div
@@ -42,7 +42,7 @@ const Contact = ({}: Props) => {
                   type='text'
                   name='email'
                   id='email'
-                  required
+                  required={true}
                 />
               </div>
               <div
@@ -66,7 +66,7 @@ const Contact = ({}: Props) => {
                 <textarea
                   name='message'
                   id='message'
-                  required
+                  required={true}
                 />
               </div>
               <div className='wrapper-submit'>
