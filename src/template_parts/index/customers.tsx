@@ -23,7 +23,7 @@ const Customers = ({}: Props) => {
   return (
     <div
       className='customers'
-      id='#servicos'
+      id='clientes'
     >
       <Container>
         <Row>

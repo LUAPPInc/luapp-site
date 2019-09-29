@@ -7,7 +7,7 @@ const Services = ({}: Props) => {
   return (
     <div
       className='services'
-      id='#servicos'
+      id='servicos'
     >
       <Container>
         <Row>

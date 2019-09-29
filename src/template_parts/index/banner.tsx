@@ -8,7 +8,7 @@ const Banner = ({}: Props) => {
   return (
     <div
       className='banner'
-      id='#home'
+      id='home'
     >
       <Container>
         <div className='box'>

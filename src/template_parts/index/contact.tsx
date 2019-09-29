@@ -8,7 +8,7 @@ const Contact = ({}: Props) => {
   return (
     <div
       className='contact'
-      id='#contato'
+      id='contato'
     >
       <Container>
         <Row>

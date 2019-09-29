@@ -9,7 +9,7 @@ const About = ({}: Props) => {
   return (
     <div
       className='about'
-      id='#sobre'
+      id='sobre'
     >
       <p
         className='app'
