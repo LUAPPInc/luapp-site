@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import favicon from '../images/favicon.ico'
 import { useStaticQuery, graphql } from 'gatsby'
 
 interface Props {
@@ -33,6 +34,13 @@ const SEO = ({ description, lang, meta, title }: Props) => {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[
+        {
+          'rel': 'icon', 
+          'type': 'image/png', 
+          'href': favicon
+        }
+       ]}
       meta={[
         {
           name: `description`,

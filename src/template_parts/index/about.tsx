@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import luappSvg from '../../images/luapp_purple.svg'
 import phoneSvg from '../../images/phone.svg'
 
@@ -36,12 +37,13 @@ const About = ({}: Props) => {
                 <br />
                 Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.
               </p>
-              <a
-                href='/#contrate'
+              <AnchorLink
                 className='link-button'
+                offset='71'
+                href='#contato'
               >
                 Contrate!
-              </a>
+              </AnchorLink>
             </div>
             <figure
               className='phone'
