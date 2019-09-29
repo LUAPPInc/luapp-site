@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import luappSvg from '../images/luapp_white.svg'
 
 interface Props {}
@@ -14,32 +15,34 @@ const Header = ({}: Props) => {
           <Navbar.Toggle aria-controls='navbar-nav' />
           <Navbar.Collapse id='navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href='/#home'>
+            <AnchorLink href='#home'>
               Ínicio
-            </Nav.Link>
-            <Nav.Link href='/#sobre'>
+            </AnchorLink>
+            <AnchorLink href='#sobre'>
               Luapp
-            </Nav.Link>
-            <Nav.Link href='/#servicos'>
+            </AnchorLink>
+            <AnchorLink href='#servicos'>
               Serviços
-            </Nav.Link>
-            <Nav.Link href='/#clientes'>
+            </AnchorLink>
+            <AnchorLink href='#clientes'>
               Clientes
-            </Nav.Link>
-            <Nav.Link href='/#contato'>
+            </AnchorLink>
+            <AnchorLink href='#contato'>
               Contato
-            </Nav.Link>
+            </AnchorLink>
           </Nav>
           </Navbar.Collapse>
-          <Navbar.Brand href='/#home'>
-            <figure>
-              <img 
-                src={luappSvg}
-                alt='Lunnar Applications'
-                title='Lunnar Applications'
-                className='img-fluid'
-              />
-            </figure>
+          <Navbar.Brand>
+            <AnchorLink href='#home'>
+              <figure>
+                <img 
+                  src={luappSvg}
+                  alt='Lunnar Applications'
+                  title='Lunnar Applications'
+                  className='img-fluid'
+                />
+              </figure>
+            </AnchorLink>
           </Navbar.Brand>
         </Container>
       </Navbar>

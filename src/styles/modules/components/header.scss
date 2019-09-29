@@ -19,7 +19,7 @@
           height: calc(100vh - 90px);
           
         }
-        .nav-link {
+        a {
           display: inline-block;
           text-align: center;
           color: $white;
@@ -28,6 +28,7 @@
           transition: $transition;
           border-bottom: 2px solid transparent;
           margin: 0 10px;
+          padding: 1rem 0.5rem;
           &.active {
             font-weight: bold;
           }
