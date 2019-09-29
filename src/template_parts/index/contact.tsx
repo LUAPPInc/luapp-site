@@ -67,7 +67,7 @@ const Contact = ({}: Props) => {
                   name='message'
                   id='message'
                   required
-                ></textarea>
+                />
               </div>
               <div className='wrapper-submit'>
                 <button

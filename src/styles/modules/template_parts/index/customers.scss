@@ -5,6 +5,10 @@
   width: 100%;
   background-color: $purpleLight;
   position: relative;
+  height: 350px;
+  .row {
+    height: 350px;
+  }
   h2 {
     margin: 30px auto;
     padding: 0 0 0 30px;
@@ -25,6 +29,13 @@
         margin: 0 auto;
         display: block;
       }
+    }
+  }
+  figure {
+    max-width: 300px;
+    margin: 0 auto;
+    @media (max-width: 767px) {
+      max-width: 200px;
     }
   }
 }
