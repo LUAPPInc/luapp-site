@@ -1,0 +1,65 @@
+@import '../../colors.scss';
+@import '../../animations.scss';
+
+.header {
+  background: $purpleDark;
+  height: 71px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  @media (max-width: 991px) {
+    height: 56px;
+  }
+  .navbar {
+    background: $purpleDark;
+    .navbar-collapse {
+      transition: $transition;
+      .navbar-nav {
+        justify-content: center;
+        align-items: center;
+        @media (max-width: 991px) {
+          height: calc(100vh - 89px); 
+        }
+        a {
+          display: inline-block;
+          text-align: center;
+          color: $white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          transition: $transition;
+          border-bottom: 2px solid transparent;
+          margin: 0 10px;
+          padding: 1rem 0.5rem;
+          &.active {
+            font-weight: bold;
+          }
+          &:hover {
+            border-color: $white;
+          }
+          @media (max-width: 991px) {
+            width: 100%;
+            margin: 15px auto;
+          }
+        }
+      }
+    }
+    .navbar-toggler {
+      color: $white;
+      border-color: $white;
+      transition: $transition;
+      &:hover, &:focus {
+        outline: none;
+      }
+    }
+    .navbar-brand {
+      display: inline-block;
+      margin: 0 15px;
+      width: 150px;
+      transition: $transition;
+      @media (max-width: 991px) {
+        margin: 0 auto;
+      }
+    }
+  }
+}

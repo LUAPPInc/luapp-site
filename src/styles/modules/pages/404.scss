@@ -1,0 +1,43 @@
+@import '../../colors.scss';
+
+.page-404 {
+  min-height: calc(100vh - 101px);
+  width: 100%;
+  background-color: $white;
+  background-image: url('../images/bg3.jpg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  align-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 0 15px;
+  @media (max-width: 991px) {
+    min-height: calc(100vh - 86px);
+  }
+  .wrapper {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    @media (max-width: 991px) {
+      position: relative;
+      top: initial;
+      left: initial;
+    }
+    h1 {
+      color: $purple;
+      font-size: 30px;
+      margin: 15px auto;
+      width: 100%;
+      display: inline-block;
+    }
+    p {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+
+}

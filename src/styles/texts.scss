@@ -1,0 +1,65 @@
+/* Variable fonts declarations */
+$ubuntu: 'Ubuntu', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+/* Variable fonts declarations */
+
+p,
+a,
+span,
+li,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $montserrat;
+  font-size: 14px;
+  text-decoration: none;
+  color: $gray;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 auto 15px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+
+input,
+textarea,
+button {
+  font-family: $montserrat;
+  font-size: 14px;
+}

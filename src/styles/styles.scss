@@ -1,0 +1,24 @@
+/* General styles */
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import './full.scss';
+/* General styles */
+
+/* Components styles */
+@import './modules/components/header.scss';
+@import './modules/components/layout.scss';
+@import './modules/components/footer.scss';
+/* Components styles */
+
+/* Pages styles */
+@import './modules/pages/404.scss';
+/* Pages styles */
+
+/* Template Parts styles */
+@import './modules/template_parts/index/banner.scss';
+@import './modules/template_parts/index/about.scss';
+@import './modules/template_parts/index/services.scss';
+@import './modules/template_parts/index/customers.scss';
+@import './modules/template_parts/index/contact.scss';
+/* Template Parts styles */
