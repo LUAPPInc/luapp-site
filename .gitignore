@@ -59,5 +59,6 @@ typings/
 
 .cache/
 yarn-error.log
+public
 
 README.html
