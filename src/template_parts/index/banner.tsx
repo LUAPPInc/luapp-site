@@ -28,7 +28,7 @@ const Banner = ({}: Props) => {
                 Tecnologia e Desenvolvimento
               </h1>
               <p>
-                Desenvolvendo sonhos com tecnologia
+                Transformando sonhos em realidade.
               </p>
             </div>
           </div>
