@@ -1,0 +1,90 @@
+@import '../../../colors.scss';
+@import '../../../animations.scss';
+
+.banner {
+  min-height: calc(100vh - 55px);
+  width: 100%;
+  position: relative;
+  background-color: $blue;
+  background-image: url('../images/bg1.jpg');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  @media(max-width: 991px) {
+    min-height: initial;
+    background-size: cover;
+  }
+  .app {
+    width: 275px;
+    display: inline-block;
+    position: absolute;
+    right: -105px;
+    top: 50%;
+    color: $blueLight;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    margin: 0;
+    @media(max-width: 991px) {
+      display: none;
+    }
+  }
+  .box {
+    width: 100%;
+    min-height: calc(100vh - 55px);
+    display: flex;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    .wrapper {
+      width: 100%;
+      figure {
+        width: calc(50% - 15px);
+        max-width: 450px;
+        display: inline-block;
+        margin: 0 15px 0 0;
+        @media (max-width: 991px) {
+          width: 100%;
+          max-width: 250px;
+          margin: 0 auto 15px;
+        }
+      }
+      .texts {
+        width: 50%;
+        display: inline-block;
+        padding: 0 15px 0 60px;
+        position: relative;
+        h1 {
+          color: $white;
+          font-size: 50px;
+          text-align: left;
+          text-transform: uppercase;
+          position: relative;
+          top: 60px;
+          text-shadow: 0 -40px 1px rgba(255, 255, 255, 0.1);
+          @media (max-width: 991px) {
+            top: initial;
+            font-size: 30px;
+          }
+        }
+        p {
+          color: $blueLight;
+          font-size: 20px;
+          text-align: left;
+          position: relative;
+          top: 60px;
+          text-shadow: 0 0 1px $white;
+          margin: 0 auto;
+          @media (max-width: 991px) {
+            top: initial;
+          }
+        }
+        @media (max-width: 991px) {
+          width: 100%;
+          margin: 0 auto 15px;
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}
