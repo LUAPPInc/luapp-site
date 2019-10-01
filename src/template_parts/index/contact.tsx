@@ -18,6 +18,7 @@ const Contact = ({}: Props) => {
           </Col>
           <Col lg='12' className='align-self-center'>
             <form
+              id='contact-form'
               method='POST'
               action='https://formspree.io/equipe@lunnarapps.com.br'
             >
@@ -71,6 +72,17 @@ const Contact = ({}: Props) => {
                   required={true}
                 />
               </div>
+              <input
+                type='hidden'
+                name='_subject'
+                value='Novo Contato - Site'
+              />
+              <input
+                type='text'
+                id='_gotcha'
+                name='_gotcha'
+                style={{ display: 'none' }}
+              />
               <div className='wrapper-submit'>
                 <button
                   type='submit'
