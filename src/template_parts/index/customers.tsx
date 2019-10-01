@@ -30,9 +30,9 @@ const Customers = ({}: Props) => {
           <Col lg='12' className='align-self-center'>
             <h2>
               Os Clientes.
-              <span>
+              {/* <span>
                 todos tem 19
-              </span>
+              </span> */}
             </h2>
           </Col>
           <Col lg='12' className='align-self-center'>

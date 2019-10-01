@@ -25,10 +25,10 @@ const Banner = ({}: Props) => {
               className='texts'
             >
               <h1>
-                Os melhores golfistas.
+                Tecnologia e Desenvolvimento
               </h1>
               <p>
-                Até usando o penis.
+                Desenvolvendo sonhos com tecnologia
               </p>
             </div>
           </div>
