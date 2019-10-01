@@ -6,7 +6,7 @@
   width: 100%;
   background-color: $purpleLight;
   background-image: url('../images/bg4.jpg');
-  background-size: 100% 100%;
+  background-size: 100% auto;
   position: relative;
   @media(max-width: 991px) {
     min-height: initial;
