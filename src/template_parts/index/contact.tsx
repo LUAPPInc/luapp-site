@@ -79,7 +79,7 @@ const Contact = ({}: Props) => {
                   Email
                 </label>
                 <input
-                  type='text'
+                  type='email'
                   name='email'
                   id='email'
                   required={true}
