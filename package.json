@@ -10,7 +10,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "type-check": "tsc --noEmit",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && node ./scripts/deploy-github"
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
