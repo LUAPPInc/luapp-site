@@ -87,7 +87,10 @@ const SEO = ({ description, lang, meta, title }: Props) => {
           gtag('config', 'UA-149182613-1');
         `}
       </script>
-
+      {/* Global site tag (gtag.js) - Google Analytics */}
+      {/* EmailJS */}
+      <script async={true} type='text/javascript' src='https://cdn.emailjs.com/sdk/2.3.2/email.min.js' />
+      {/* EmailJS */}
     </Helmet>
   )
 }
