@@ -25,10 +25,7 @@
     text-transform: uppercase;
     margin: 0;
     @media(max-width: 991px) {
-      top: 15px;
-      right: calc(50% - 140px);
-      transform: none;
-      font-size: 12px;
+      display: none;
     }
   }
   .box {
