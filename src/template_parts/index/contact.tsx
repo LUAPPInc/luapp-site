@@ -17,7 +17,10 @@ const Contact = ({}: Props) => {
             </h2>
           </Col>
           <Col lg='12' className='align-self-center'>
-            <form>
+            <form
+              method='POST'
+              action='https://formspree.io/equipe@lunnarapps.com.br'
+            >
               <div
                 className='wrapper-input'
               >

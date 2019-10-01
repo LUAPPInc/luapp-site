@@ -75,7 +75,20 @@ const SEO = ({ description, lang, meta, title }: Props) => {
           content: metaDescription,
         },
       ].concat(meta || [])}
-    />
+    >
+      {/* Global site tag (gtag.js) - Google Analytics */}
+      <script async={true} src='https://www.googletagmanager.com/gtag/js?id=UA-149182613-1'/>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-149182613-1');
+        `}
+      </script>
+
+    </Helmet>
   )
 }
 
