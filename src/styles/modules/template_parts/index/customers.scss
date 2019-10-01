@@ -34,6 +34,11 @@
   figure {
     max-width: 300px;
     margin: 0 auto;
+    height: 250px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
     @media (max-width: 767px) {
       max-width: 200px;
     }

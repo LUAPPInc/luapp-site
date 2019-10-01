@@ -1,6 +1,12 @@
 import React from 'react'
 import Slider from 'react-slick'
 import { Container, Row, Col } from 'react-bootstrap'
+import gtPlanPng from '../../images/gtplan.png'
+import elefanteRosaPng from '../../images/elefanterosa.png'
+import contatusPng from '../../images/contatus.png'
+import nossoCupomPng from '../../images/nossocupom.png'
+import oCupomPng from '../../images/ocupom.png'
+import mandaUmaPng from '../../images/mandauma.png'
 
 interface Props {}
 
@@ -13,6 +19,7 @@ const Customers = ({}: Props) => {
     responsive: [
       {
         breakpoint: 991,
+        centerMode: true,
         settings: {
           slidesToShow: 1
         }
@@ -42,7 +49,7 @@ const Customers = ({}: Props) => {
               <div>
                 <figure>
                   <img
-                    src='http://gtplan.com.br/company/wp-content/uploads/2018/05/Picture1-3.png'
+                    src={gtPlanPng}
                     className='img-fluid'
                     alt='GTPlan'
                     title='GTPlan'
@@ -52,30 +59,50 @@ const Customers = ({}: Props) => {
               <div>
                 <figure>
                   <img
-                    src='http://gtplan.com.br/company/wp-content/uploads/2018/05/Picture1-3.png'
+                    src={elefanteRosaPng}
                     className='img-fluid'
-                    alt='GTPlan'
-                    title='GTPlan'
+                    alt='Grupo Elefante Rosa'
+                    title='Grupo Elefante Rosa'
                   />
                 </figure>
               </div>
               <div>
                 <figure>
                   <img
-                    src='http://gtplan.com.br/company/wp-content/uploads/2018/05/Picture1-3.png'
+                    src={contatusPng}
                     className='img-fluid'
-                    alt='GTPlan'
-                    title='GTPlan'
+                    alt='Contatus Eventos'
+                    title='Contatus Eventos'
                   />
                 </figure>
               </div>
               <div>
                 <figure>
                   <img
-                    src='http://gtplan.com.br/company/wp-content/uploads/2018/05/Picture1-3.png'
+                    src={mandaUmaPng}
                     className='img-fluid'
-                    alt='GTPlan'
-                    title='GTPlan'
+                    alt='Manda Uma App'
+                    title='Manda Uma App'
+                  />
+                </figure>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src={nossoCupomPng}
+                    className='img-fluid'
+                    alt='Nosso Cupom'
+                    title='Nosso Cupom'
+                  />
+                </figure>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src={oCupomPng}
+                    className='img-fluid'
+                    alt='O Cupom'
+                    title='O Cupom'
                   />
                 </figure>
               </div>
