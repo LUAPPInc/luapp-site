@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap'
+import $ from 'jquery'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import luappSvg from '../images/luapp_white.svg'
 
@@ -9,24 +10,32 @@ interface Props {
 
 const Header = ({ is404 = false }: Props) => {
 
+  const click = (event: any) =>{
+    event.preventDefault()
+    const toggle = $('#navbar-toggler')
+    if (toggle && window.innerWidth < 992) {
+      toggle.click()
+    }
+  }
+
   let menu = (
     <Container>
-      <Navbar.Toggle aria-controls='navbar-nav' />
+      <Navbar.Toggle aria-controls='navbar-nav' id='navbar-toggler' />
       <Navbar.Collapse id='navbar-nav'>
       <Nav className='mr-auto'>
-        <AnchorLink offset='71' href='#home'>
+        <AnchorLink onClick={click} offset='71' href='#home'>
           Ínicio
         </AnchorLink>
-        <AnchorLink offset='71' href='#sobre'>
+        <AnchorLink onClick={click} offset='71' href='#sobre'>
           Luapp
         </AnchorLink>
-        <AnchorLink offset='71' href='#servicos'>
+        <AnchorLink onClick={click} offset='71' href='#servicos'>
           Serviços
         </AnchorLink>
-        <AnchorLink offset='71' href='#clientes'>
+        <AnchorLink onClick={click} offset='71' href='#clientes'>
           Clientes
         </AnchorLink>
-        <AnchorLink offset='71' href='#contato'>
+        <AnchorLink onClick={click} offset='71' href='#contato'>
           Contato
         </AnchorLink>
       </Nav>
