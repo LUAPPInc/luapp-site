@@ -29,4 +29,15 @@ The project will run at `http: // localhost: 8000`
 ```js
 yarn build
 ```
+
+  5. deploy
+
+  Deploy with Firebase
+```js
+npm install -g firebase-tools
+firebase login
+firebase deploy
+
+```
+  
   
