@@ -66,6 +66,9 @@
             top: initial;
             font-size: 30px;
           }
+          @media (max-width: 375px) {
+            font-size: 22px;
+          }
         }
         p {
           color: $blueLight;
