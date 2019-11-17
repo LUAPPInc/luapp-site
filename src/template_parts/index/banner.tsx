@@ -25,7 +25,7 @@ const Banner = ({}: Props) => {
               className='texts'
             >
               <h1>
-                Desconstruindo ideias, construindo soluções.
+                Desconstruindo ideias<br /> construindo soluções.
               </h1>
               {/* <p>
                 Construindo soluções.
