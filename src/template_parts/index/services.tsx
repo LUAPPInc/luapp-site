@@ -13,30 +13,30 @@ const Services = ({}: Props) => {
         <Row>
           <Col lg='12' className='align-self-start'>
             <h2>
-              Serviços.
-              <span>
+              Serviços
+              {/* <span>
                 consultoria e desenvolvimento:
-              </span>
+              </span> */}
             </h2>
           </Col>
           <Col lg='12' className='align-self-center'>
             <h2>
-              Sistemas, Sites e Infraestruturas
+              Sistemas a Apps, Sites e Infraestrutura
             </h2>
           </Col>
           <Col md='12' lg='4' className='align-self-end'>
             <p>
-              Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai.
+              De pequenos MVPs a grandes produtos, analisamos a necessidade do seu negocio e oferecemos uma solução personalizada para automatizar e tornar seus processos mais eficientes, seguindo as definições que mais importam: as suas!
             </p>
           </Col>
           <Col md='12' lg='4' className='align-self-end'>
             <p>
-              Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai.
+              A porta de entrada para qualquer empresa hoje em dia é através da web. Deixe a sua marca registrada no mundo digital através de sites personalizados.
             </p>
           </Col>
           <Col md='12' lg='4' className='align-self-end'>
             <p>
-              Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai.
+              Nem só de software vive um produto. Temos uma gama de profissionais especializados em infraestrutura que vão fazer o seu produto ou solução estarem prontas para a era da Internet.
             </p>
           </Col>
         </Row>

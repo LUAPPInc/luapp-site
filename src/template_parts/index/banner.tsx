@@ -25,20 +25,20 @@ const Banner = ({}: Props) => {
               className='texts'
             >
               <h1>
-                Tecnologia e Desenvolvimento
+                Desconstruindo ideias
               </h1>
               <p>
-                Transformando sonhos em realidade.
+                Construindo soluções.
               </p>
             </div>
           </div>
         </div>
       </Container>
-      <p
+      {/* <p
         className='app'
       >
         _Desenvolvimento de aplicativos
-      </p>
+      </p> */}
     </div>
   )
 }

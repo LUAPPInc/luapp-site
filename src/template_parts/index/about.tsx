@@ -12,11 +12,11 @@ const About = ({}: Props) => {
       className='about'
       id='sobre'
     >
-      <p
+      {/* <p
         className='app'
       >
         _Desenvolvimento de aplicativos
-      </p>
+      </p> */}
       <Container>
         <div className='box'>
           <div className='wrapper'>
@@ -32,10 +32,10 @@ const About = ({}: Props) => {
                 />
               </figure>
               <p>
-                Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.
-                <br />
-                <br />
-                Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E que abundância meu irmão viuu!! Assim você vai matar o papai. Só digo uma coisa, Domingo ela não vai! Danadaa!! Vem minha odalisca, agora faz essa cobra coral subir!!! Pau que nasce torto, Nunca se endireita. Tchannn!! Tchannn!! Tu du du pááá! Eu gostchu muitchu, heinn! danadinha! Mainhaa! Agora use meu lorem ipsum ordinária!!! Olha o quibeee! rema, rema, ordinária!.
+                A ideia original da LUAPP surgiu com 5 amigos fascinados por tecnologia que, desde o ensino médio, sabiam que juntos poderiam criar coisas grandiosas, transformar sonhos em realidade e resolver problemas do cotidiano de uma forma diferente das demais.
+                <br/>
+                <br/>
+                Descontentes de como o mercado de serviços estava tratando seus clientes e seus projetos, a LUAPP veio para desconstruir a forma como tecnologia é dada à sociedade. O foco e a atenção na necessidade de cada cliente para cada situação é faz com que nossas soluções sejam as melhores possíveis para cada tipo de problema, seja apenas tirar uma ideia do papel ou então para desenvolver um grande produto.
               </p>
               <AnchorLink
                 className='link-button'
