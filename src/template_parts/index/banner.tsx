@@ -25,11 +25,11 @@ const Banner = ({}: Props) => {
               className='texts'
             >
               <h1>
-                Desconstruindo ideias
+                Desconstruindo ideias, construindo soluções.
               </h1>
-              <p>
+              {/* <p>
                 Construindo soluções.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

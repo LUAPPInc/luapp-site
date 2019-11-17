@@ -24,17 +24,17 @@ const Services = ({}: Props) => {
               Sistemas a Apps, Sites e Infraestrutura
             </h2>
           </Col>
-          <Col md='12' lg='4' className='align-self-end'>
+          <Col md='12' lg='4' className='align-self-center'>
             <p>
               De pequenos MVPs a grandes produtos, analisamos a necessidade do seu negocio e oferecemos uma solução personalizada para automatizar e tornar seus processos mais eficientes, seguindo as definições que mais importam: as suas!
             </p>
           </Col>
-          <Col md='12' lg='4' className='align-self-end'>
+          <Col md='12' lg='4' className='align-self-center'>
             <p>
               A porta de entrada para qualquer empresa hoje em dia é através da web. Deixe a sua marca registrada no mundo digital através de sites personalizados.
             </p>
           </Col>
-          <Col md='12' lg='4' className='align-self-end'>
+          <Col md='12' lg='4' className='align-self-center'>
             <p>
               Nem só de software vive um produto. Temos uma gama de profissionais especializados em infraestrutura que vão fazer o seu produto ou solução estarem prontas para a era da Internet.
             </p>
