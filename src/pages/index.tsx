@@ -4,7 +4,7 @@ import SEO from '../components/seo'
 import Banner from '../template_parts/index/banner'
 import About from '../template_parts/index/about'
 import Services from '../template_parts/index/services'
-import Customers from '../template_parts/index/customers'
+// import Customers from '../template_parts/index/customers'
 import Contact from '../template_parts/index/contact'
 
 export default class IndexPage extends React.Component {
@@ -16,7 +16,7 @@ export default class IndexPage extends React.Component {
         <Banner />
         <About />
         <Services />
-        <Customers />
+        {/* <Customers /> */}
         <Contact />
       </Layout>
     )

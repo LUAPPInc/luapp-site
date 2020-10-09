@@ -6,13 +6,12 @@
   width: 100%;
   background-color: $white;
   background-image: url('../images/bg3.jpg');
-  background-size: 100% auto;
+  background-size: contain;
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
   @media(max-width: 991px) {
     min-height: initial;
-    background-size: cover;
   }
   .row {
     min-height: calc(100vh - 300px);
